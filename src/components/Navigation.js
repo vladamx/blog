@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Link from 'gatsby-link'
 
 import { rhythm, scale } from '../utils/typography'
+import Logo from './Logo'
 
 class Navigation extends Component {
   render() {
@@ -13,57 +14,19 @@ class Navigation extends Component {
       rootPath = __PATH_PREFIX__ + `/`
     }
     if (location.pathname === rootPath) {
-      header = (
-        <div
-          css={{
-            display: 'flex',
-            justifyContent: 'space-between',
-          }}>
-          <h1
-            style={{
-              ...scale(1.5),
-              marginBottom: rhythm(1.5),
-              marginTop: 0,
-            }}>
-            <Link
-              style={{
-                boxShadow: 'none',
-                textDecoration: 'none',
-                color: 'inherit',
-              }}
-              to={'/'}>
-              {title}
-            </Link>
-          </h1>
-          <Link
-            to="/articles"
-            css={{
-              paddingTop: 17,
-            }}>
-            All Articles
+      header = <div css={{ display: 'flex', justifyContent: 'space-between' }}>
+          <Logo title={title} />                    
+          <Link to="/archives" css={{ paddingTop: 17 }}>
+            Archives
           </Link>
         </div>
-      )
     } else {
-      header = (
-        <h3
-          style={{
-            fontFamily: 'Montserrat, sans-serif',
-            marginTop: 0,
-            marginBottom: rhythm(1),
-          }}>
-          <Link
-            style={{
-              boxShadow: 'none',
-              textDecoration: 'none',
-              color: 'inherit',
-              fontSize: 21,
-            }}
-            to={'/'}>
+      header = <Logo title={title} />
+      {/* <h3 style={{ fontFamily: 'Montserrat, sans-serif', marginTop: 0, marginBottom: rhythm(1) }}>
+          <Link style={{ boxShadow: 'none', textDecoration: 'none', color: 'inherit', fontSize: 21 }} to={'/'}>
             <i className="fa fa-arrow-left" />
           </Link>
-        </h3>
-      )
+        </h3> */}
     }
 
     return (

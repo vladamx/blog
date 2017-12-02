@@ -7,7 +7,7 @@ import glamorous from 'glamorous'
 import 'typeface-montserrat'
 import 'typeface-merriweather'
 
-import profilePic from './profile-pic.jpg'
+import profilePic from './profile.jpg'
 import { rhythm } from '../utils/typography'
 
 class Bio extends React.Component {
@@ -25,9 +25,10 @@ class Bio extends React.Component {
           style={{
             alignSelf: 'center',
             marginRight: rhythm(1 / 4),
+            borderRadius: '50%',
             marginBottom: 20,
-            width: rhythm(2),
-            height: rhythm(2),
+            width: rhythm(7),
+            height: rhythm(7),
           }}
         />
         <p>
@@ -38,7 +39,7 @@ class Bio extends React.Component {
         <div
           css={{
             display: 'flex',
-            'justify-content': 'center',
+            justifyContent: 'center',
             '> div': {
               margin: 15,
             },

@@ -3,6 +3,7 @@ import Link from 'gatsby-link'
 import get from 'lodash/get'
 import { Container } from 'react-responsive-grid'
 import Navigation from '../components/Navigation'
+import Footer from '../components/Footer'
 
 import '../css/main.css'
 import 'font-awesome/css/font-awesome.css'
@@ -22,6 +23,7 @@ class Template extends React.Component {
         }}>
         <Navigation data={{location, title}} />
         {children()}
+        <Footer />
       </Container>
     )
   }
