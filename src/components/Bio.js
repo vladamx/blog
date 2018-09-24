@@ -1,5 +1,4 @@
 import React from 'react'
-
 // Using glamor and glamorous for styling
 import glamorous from 'glamorous'
 
@@ -27,15 +26,10 @@ class Bio extends React.Component {
             marginRight: rhythm(1 / 4),
             borderRadius: '50%',
             marginBottom: 20,
-            width: rhythm(7),
-            height: rhythm(7),
+            width: rhythm(6),
+            height: rhythm(5),
           }}
         />
-        <p>
-          Hi, I'm Vladimir Milojevic.<br />
-          This blog is all about software engineering. <br />
-          It's aim is to both document my learning journey and help others.
-        </p>
         <div
           css={{
             display: 'flex',
@@ -48,18 +42,26 @@ class Bio extends React.Component {
             },
           }}>
           <div>
-            <a href="https://twitter.com/kylemathews">
-              <i className="fa fa-twitter" />
-            </a>
-            <p>Find out what is latest on my mind!</p>
-          </div>
-          <div>
-            <a href="https://twitter.com/kylemathews">
+            <a href="https://www.linkedin.com/in/vladamx/"  target="_blank">
               <i className="fa fa-linkedin" />
             </a>
-            <p>Find out more about me!</p>
+          </div>
+          <div>
+            <a data-tip="You need to have email client installed." href="mailto:vladamx.dev@gmail.com" target="_top">
+              <i className="fa fa-envelope" />
+            </a>
+          </div>
+          <div>
+            <a href="https://twitter.com/vladamxx" target="_blank">
+              <i className="fa fa-twitter" />
+            </a>
           </div>
         </div>
+        <p>
+          Hi, I'm Vladimir Milojevic.<br />
+          This blog is all about software engineering. <br />
+          It's aim is to both document my learning journey and help others.
+        </p>
       </div>
     )
   }

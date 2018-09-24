@@ -29,6 +29,7 @@
     "glamorous": "^4.9.7",
     "lodash": "^4.15.0",
     "react-responsive-grid": "^0.3.3",
+    "react-tooltip": "^3.8.4",
     "typeface-merriweather": "^0.0.35",
     "typeface-montserrat": "^0.0.37",
     "typography-theme-wordpress-2011": "^0.15.10",

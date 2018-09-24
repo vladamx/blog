@@ -15,10 +15,7 @@ class Navigation extends Component {
     }
     if (location.pathname === rootPath) {
       header = <div css={{ display: 'flex', justifyContent: 'space-between' }}>
-          <Logo title={title} />                    
-          <Link to="/archives" css={{ paddingTop: 17 }}>
-            Archives
-          </Link>
+          <Logo title={title} />
         </div>
     } else {
       header = <Logo title={title} />

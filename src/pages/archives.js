@@ -4,34 +4,41 @@ import get from 'lodash/get'
 import Helmet from 'react-helmet'
 
 import { rhythm } from '../utils/typography'
+import PostPreview from '../components/PostPreview'
 
 class Archives extends React.Component {
   render() {
     const siteTitle = get(this, 'props.data.site.siteMetadata.title')
     const posts = get(this, 'props.data.allMarkdownRemark.edges')
 
-    return <div css={{ display: 'flex', flexDirection: 'column',  minHeight: '78vh' }}>
+    return (
+      <div
+        css={{
+          display: 'flex',
+          flexDirection: 'column',
+          minHeight: '78vh',
+          width: '100%',
+        }}
+      >
         <Helmet title={siteTitle} />
         <h1 css={{ alignSelf: 'left', fontSize: 25, marginBottom: '1.8rem' }}>
           Archives
         </h1>
-        <div>
+        <div css={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', '@media(max-width: 420px)': { justifyContent: 'center' } }}>
           {posts.map(post => {
             if (post.node.path !== '/404/') {
-              const title = get(post, 'node.frontmatter.title') || post.node.path
-              return <div key={post.node.frontmatter.path}>
-                  <h2 style={{ marginBottom: rhythm(1 / 4) }}>
-                    <Link style={{ boxShadow: 'none' }} to={post.node.frontmatter.path}>
-                      {post.node.frontmatter.title}
-                    </Link>
-                  </h2>
-                  <small>{post.node.frontmatter.date}</small>
-                  <p dangerouslySetInnerHTML={{ __html: post.node.excerpt }} />
-                </div>
+              return (
+                <PostPreview
+                  key={post.node.frontmatter.path}
+                  post={post}
+                  style={{ width: 200 }}
+                />
+              )
             }
           })}
         </div>
       </div>
+    )
   }
 }
 
@@ -58,6 +65,7 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
+            cover
           }
         }
       }
