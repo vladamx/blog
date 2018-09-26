@@ -14,22 +14,24 @@ class Navigation extends Component {
       rootPath = __PATH_PREFIX__ + `/`
     }
     if (location.pathname === rootPath) {
-      header = <div css={{ display: 'flex', justifyContent: 'space-between' }}>
-          <Logo title={title} />
-        </div>
-    } else {
       header = <Logo title={title} />
-      {/* <h3 style={{ fontFamily: 'Montserrat, sans-serif', marginTop: 0, marginBottom: rhythm(1) }}>
+    } else {
+      header = (
+        <div css={{ display: 'flex', justifyContent: 'space-between' }}>
+          <Logo title={title} />
+          <a style={{paddingTop: 22}} href="https://discord.gg/hPTaYm9">Chat with me</a>
+        </div>
+      )
+      {
+        /* <h3 style={{ fontFamily: 'Montserrat, sans-serif', marginTop: 0, marginBottom: rhythm(1) }}>
           <Link style={{ boxShadow: 'none', textDecoration: 'none', color: 'inherit', fontSize: 21 }} to={'/'}>
             <i className="fa fa-arrow-left" />
           </Link>
-        </h3> */}
+        </h3> */
+      }
     }
 
-    return (
-      <div>
-      { header }
-      </div>)
+    return <div>{header}</div>
   }
 }
 
