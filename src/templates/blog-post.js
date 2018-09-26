@@ -31,6 +31,7 @@ class BlogPostTemplate extends React.Component {
           {post.frontmatter.date}
         </p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <div css={styles.chatCta}>If you like what you read here come hang out with me on <a href="https://discord.gg/hPTaYm9">Discord</a></div>
         <hr
           style={{
             marginBottom: rhythm(1),
@@ -39,6 +40,17 @@ class BlogPostTemplate extends React.Component {
       </div>
     )
   }
+}
+
+const styles = {
+  chatCta: {
+    padding: '0px 0px 15px 0px',
+    fontWeight: 900,
+    "> small": {
+      fontWeigt: 100,
+      color: '#eee'
+    }
+  },
 }
 
 export default BlogPostTemplate
@@ -52,8 +64,9 @@ export const pageQuery = graphql`
       }
     }
     markdownRemark(frontmatter: { path: { eq: $path } }) {
-      id
       html
+      timeToRead
+      tableOfContents
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
