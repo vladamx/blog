@@ -31,7 +31,7 @@ class BlogPostTemplate extends React.Component {
           {post.frontmatter.date}
         </p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        <div css={styles.chatCta}>If you like what you read here come hang out with me on <a href="https://discord.gg/hPTaYm9">Discord</a></div>
+        <div css={styles.chatCta}>Wow, you read the whole post. Thank you! If you like what you read, come hang out on <a href="https://discord.gg/hPTaYm9">Discord</a></div>
         <hr
           style={{
             marginBottom: rhythm(1),
@@ -66,7 +66,6 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       timeToRead
-      tableOfContents
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")

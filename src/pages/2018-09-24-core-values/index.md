@@ -2,7 +2,7 @@
 title: Core Values Of A Software Engineer
 date: "2018-09-24T22:12:03.284Z"
 path: "/core-values"
-cover: "/static/covers/core-values.jpg"
+cover: "/covers/core-values.jpg"
 featured: true
 ---
 

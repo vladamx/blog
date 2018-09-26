@@ -41,8 +41,9 @@ class Bio extends React.Component {
           Hi, I'm Vladimir Milojevic.<br />
           This blog is all about software engineering. <br />
           It's aim is to both document my learning journey and help others.
-          <div css={styles.chatCta}>If you like what you read here come hang out with me on <a href="https://discord.gg/hPTaYm9">Discord</a>
-          </div>
+          <br />
+          <strong css={styles.chatCta}>If you like what you read here come hang out with me on <a href="https://discord.gg/hPTaYm9">Discord</a>
+          </strong>
         </p>
 
       </div>
