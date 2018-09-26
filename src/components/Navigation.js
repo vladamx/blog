@@ -19,7 +19,7 @@ class Navigation extends Component {
       <Logo title={title} />
       <ul css={{padding: 0, margin: 0, display: 'flex', 'listStyleType': 'none', '> li': {height: 30, 'marginTop': 13}}}>
         <li>
-          <a style={{padding: 19}} href="/archives">Posts</a>
+          <Link style={{padding: 19}} to="/archives">Posts</Link>
         </li>
       </ul>
     </div>
