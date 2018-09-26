@@ -14,7 +14,10 @@ function PostPreview({ post, style}) {
         <Link style={{ 'boxShadow': 'none', 'color': 'inherit', 'textDecoration': 'none' }} to={post.node.frontmatter.path}>
           <img src={post.node.frontmatter.cover} />
           <div style={{'textAlign':'left'}}>
-            <small>{post.node.frontmatter.date}</small>
+            <di style={{display:'flex', 'justifyContent': 'space-between'}}>
+              <small>{post.node.frontmatter.date}</small>
+              <small>{post.node.timeToRead} mins</small>
+            </di>
             <p dangerouslySetInnerHTML={{ __html: post.node.excerpt }} />
           </div>
         </Link>

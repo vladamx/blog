@@ -9,11 +9,11 @@ function FeaturedPosts({ posts }) {
               flexDirection: 'row',
               justifyContent: 'space-between'
             }}>
-            <h2 css={{ alignSelf: 'center', fontSize: 20, marginBottom: '1.2rem' }}>
+            <h2 id="featured" css={{ alignSelf: 'center', fontSize: 20, marginBottom: '1.2rem' }}>
               Featured Posts
             </h2>
             <Link to="/archives" css={{ paddingRight: 7 }}>
-              See all
+              See All
             </Link>
           </div>
           <div

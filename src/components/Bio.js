@@ -40,10 +40,10 @@ class Bio extends React.Component {
         <p>
           Hi, I'm Vladimir Milojevic.<br />
           This blog is all about software engineering. <br />
-          It's aim is to both document my learning journey and help others.
+          Its aim is to both document my learning journey and help others.
           <br />
-          <strong css={styles.chatCta}>If you like what you read here come hang out with me on <a href="https://discord.gg/hPTaYm9">Discord</a>
-          </strong>
+          <strong css={styles.chatCta}>If you like what you read here come hang out with me on </strong> <a href="https://discord.gg/hPTaYm9" target="_blank">Discord</a>
+
         </p>
 
       </div>
@@ -53,10 +53,6 @@ class Bio extends React.Component {
 const styles = {
   chatCta: {
     fontWeight: 900,
-    "> small": {
-      fontWeigt: 100,
-      color: '#eee'
-    }
   },
   content: {
     display: 'flex',

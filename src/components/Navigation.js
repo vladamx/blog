@@ -3,6 +3,7 @@ import Link from 'gatsby-link'
 
 import { rhythm, scale } from '../utils/typography'
 import Logo from './Logo'
+import Discord from './discord.svg'
 
 class Navigation extends Component {
   render() {
@@ -14,12 +15,23 @@ class Navigation extends Component {
       rootPath = __PATH_PREFIX__ + `/`
     }
     if (location.pathname === rootPath) {
-      header = <Logo title={title} />
+      header = <div css={{ display: 'flex', justifyContent: 'space-between' }}>
+      <Logo title={title} />
+      <ul css={{padding: 0, margin: 0, display: 'flex', 'listStyleType': 'none', '> li': {height: 30, 'marginTop': 13}}}>
+        <li>
+          <a style={{padding: 19}} href="/archives">Posts</a>
+        </li>
+      </ul>
+    </div>
     } else {
       header = (
         <div css={{ display: 'flex', justifyContent: 'space-between' }}>
           <Logo title={title} />
-          <a style={{paddingTop: 22}} href="https://discord.gg/hPTaYm9">Chat with me</a>
+          <ul css={{padding: 0, margin: 0, display: 'flex', 'listStyleType': 'none', '> li': {height: 30, 'marginTop': 13}}}>
+          <li>
+            <a style={{padding: 19}} href="https://discord.gg/hPTaYm9" target="_blank">Chat</a>
+          </li>
+          </ul>
         </div>
       )
       {

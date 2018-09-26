@@ -57,16 +57,17 @@ What does it mean? Can we define it in a simpler manner?
 This is how my current state of mind sees it.
 Feel free to add more sugar to this as you see fit.
 
-> Quality = Logic * Processes
+> Quality = [Logic](#logic) * [Processes](#processes)
 
-> Logic = Durability \* Performance / Efficiency
+> Logic = [Durability](#durability) \* [Performance](#performance) / [Cost](cost)
 
-> Processes = Work plan * Personality
+> Processes = [Work plan](#work-plan) * [Personality](#personality)
 
-> Personality = Curiosity * Ego
+> Personality = [Curiosity](#curiosity) * [Ego](#ego)
+
+<h2 id="logic" style="visibility:hidden"></h2>
 
 ## Logic
-<h2 id="logic" style="visibility:hidden"></h2>
 
 You definitely need to learn how to think and solve problems.
 
@@ -78,8 +79,9 @@ It is only the question what trade-ofs you want to take.
 
 Let's break down how logic can help you improve the quality of your software.
 
-### Durability
 <h3 id="durability" style="visibility:hidden"></h3>
+
+### Durability
 
 > Durable things do not get broken under pressure.
 
@@ -173,8 +175,9 @@ External factors:
 
 My friends, for instance, constantly think about how to break something and then brag about it.
 
+<h3 id="exercise" style="visibility:hidden"></h3>
+
 ### Exercise
-<h3 id="Exercise" style="visibility:hidden"></h3>
 
 
 In this simple task, we are going to see what kind of thinking is necessary for you to be successful.
@@ -189,8 +192,9 @@ and tell you that **a** and **b** can either be 0 or 1 and instruct you to look 
 
 ![Truth tables](https://i.ytimg.com/vi/JQ0JOfxUAgY/maxresdefault.jpg)
 
-### Performance
 <h3 id="performance" style="visibility:hidden"></h3>
+
+### Performance
 
 Why performance meters?
 
@@ -216,8 +220,9 @@ Hardware:
 - Adding more machines
 - Adding more power to machine
 
-### Efficiency
-<h3 id="efficiency" style="visibility:hidden"></h3>
+<h3 id="cost" style="visibility:hidden"></h3>
+
+### Cost
 
 
 How useful is speed and durability of a car, if it takes whole salary out of your pocket?
@@ -234,8 +239,9 @@ Software engineers reduce cost of building software by using these(for starters)
 
 I will talk about architecture a lot in the future, because architecture is the main tool we use to heal complexity and reduce costs.
 
-## Processes
 <h2 id="processes" style="visibility:hidden"></h2>
+
+## Processes
 
 Software engineers measure everything and make informed decisions(based on data, not emotions) in order to increase efficiency.
 
@@ -252,8 +258,9 @@ Now, let's talk about general parts i emphasized earlier.
 
 > Processes = Work plan * Personality
 
-### Work plan
 <h3 id="work-plan" style="visibility:hidden"></h3>
+
+### Work plan
 
 You always need to be prepared in advance.
 
@@ -264,8 +271,9 @@ Planning and preparation can take you far.
 
 > 10 minute planning can save you hours of work.
 
-### Personality
 <h3 id="personality" style="visibility:hidden"></h3>
+
+### Personality
 
 It is a fuel for everything, because your brain cares about it.
 
@@ -279,8 +287,9 @@ Let's see what are the key personality traits i observed.
 
 > Personality = Curiosity * Ego
 
-#### Curiosity
 <h4 id="curiosity" style="visibility:hidden"></h4>
+
+#### Curiosity
 
 If there is one most common theme in personalities of really great engineers, then it is using curiosity as a driving force for everything they do. If you have this in you or if you can develop it i would place my bets in your corner.
 
@@ -293,8 +302,8 @@ Just listen to [Richard Feynman](https://en.wikipedia.org/wiki/Richard_Feynman) 
 
 **Richard Feynman is one of the greatest people of our time and a perfect role model.**
 
-#### Ego
 <h4 id="ego" style="visibility:hidden"></h4>
+#### Ego
 
 
 Ego is another common thing in engineering world. While it is not politically correct for one to have huge ego, it may be very useful tool in your arsenal, if you use it in a right way.
@@ -314,8 +323,9 @@ Egoists tend to:
 
 [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds) is perfect known example, but this theme is pretty common in engineering, as i said.
 
-## Closing notes
 <h2 id="closing-notes" style="visibility:hidden"></h2>
+
+## Closing notes
 
 
 I will try to constantly update this post, as i discover more patterns.
