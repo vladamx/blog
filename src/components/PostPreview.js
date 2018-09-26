@@ -5,8 +5,6 @@ import { rhythm, scale } from '../utils/typography'
 
 function PostPreview({ post, style}) {
   const title = get(post, 'node.frontmatter.title') || post.node.path
-  console.log(post);
-
   return (
     <div
       style={{ marginRight: rhythm(1 / 4), ...style}}
