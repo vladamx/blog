@@ -39,13 +39,13 @@ class Bio extends React.Component {
         </div>
         <p>
           Hi, I'm Vladimir Milojevic.<br />
-          This blog is all about software engineering. <br />
-          Its aim is to both document my learning journey and help others.
+          Curious, ambitious, lifelong student of software enineering.<br />
+          Content on this blog focuses on <strong>implicative knowledge</strong>, rather than <strong>factual</strong>.<br />
+          For example, saying that JavaScript is the most popular programming language in the world means nothing. You miss to say why and what for.
           <br />
           <strong css={styles.chatCta}>If you like what you read here come hang out with me on </strong> <a href="https://discord.gg/hPTaYm9" target="_blank">Discord</a>
 
         </p>
-
       </div>
     )
   }
