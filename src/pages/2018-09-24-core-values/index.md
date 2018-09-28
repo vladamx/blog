@@ -25,9 +25,15 @@ Though, i need to warn you that it will be painful and stressful, you will be th
 
 **I believe that people are moved by ethics rather than duties.**
 
+Negative side effect of this statement is that following ethics tends to take a lot of time out of your day.
+
+> Being great software engineer means dedication, working after hours etc.. There is no shortcut. Those who seek shortcuts fail inevitably.
+
+But,
+
 **Owning and taking pride in what you do is the way for living richer and more informed life, and I think that counts for something, but maybe that's just me...**
 
-However, if your answer is: "No, I believe there is more to work than just doing it, but I am also aware that sometimes following rules is not pragmatic."
+**However**, if your answer is: "No, I believe there is more to work than just doing it, but I am also aware that sometimes following rules is not pragmatic."
 
 That's a great point to make.
 
@@ -303,6 +309,7 @@ Just listen to [Richard Feynman](https://en.wikipedia.org/wiki/Richard_Feynman) 
 **Richard Feynman is one of the greatest people of our time and a perfect role model.**
 
 <h4 id="ego" style="visibility:hidden"></h4>
+
 #### Ego
 
 
