@@ -6,6 +6,8 @@ cover: "/covers/core-values.jpg"
 featured: true
 ---
 
+---
+
 People often ask me how one can become successful in the Software Engineering field.
 
 **I will give my answer based on both personal experiences and experiences accumulated from observing patterns in behavior of successful engineers in my environment.**
@@ -21,7 +23,7 @@ Is it about 8 hour of getting sh*t done every day, watching tv shows afterwards 
 If your answer is yes, then i would say that you don't need any guidance from me.
 
 If you are very lucky and very persistent you can get what you want.
-Though, i need to warn you that it will be painful and stressful, you will be the first to be fired in the case of crisis and you will be **very hard to work with**.
+Though, i need to warn you that it will be painful and stressful, you will be the first to be **fired** in the case of crisis and you will be **very hard to work with**.
 
 **I believe that people are moved by ethics rather than duties.**
 
@@ -344,3 +346,5 @@ You are expanding your horizons. Imagine if you can be a mixture of them all, or
 Have you noticed any interesting pattern originating from people in your environment?
 
 Feel free to [inform me](mailto:vladamx.dev@gmail.com) about that. I am curious to know.
+
+---
