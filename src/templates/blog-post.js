@@ -33,7 +33,7 @@ class BlogPostTemplate extends React.Component {
         </p>
         <p>
           <small>
-            Terms of use: We live in a busy world. Our brains need to filter a lot more information than earlier and i understand that maybe you don't have the time to read the whole post even though it is best experienced in its entirety. With that being said feel free to skim it. I try to put helpful jumps to the most important parts of the post and to generaly give my posts better structure. I am still improving on that - it's a never ending battle.
+            Terms of use: We live in a busy world. Our brains need to filter a lot more information than earlier and i understand that maybe you don't have the time to read the whole post even though it is best experienced in its entirety. With that being said feel free to skim it. I try to put helpful jumps to the most important parts of the post and to generally give my posts better structure. I am still improving on that - it's a never ending battle.
           </small>
         </p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
