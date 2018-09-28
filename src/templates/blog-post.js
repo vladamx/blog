@@ -28,7 +28,13 @@ class BlogPostTemplate extends React.Component {
             marginTop: rhythm(-1),
           }}
         >
-          {post.frontmatter.date}
+          {post.frontmatter.date} <br/>
+          This post will take {post.timeToRead} mins out of your life if you are average reader
+        </p>
+        <p>
+          <small>
+            Terms of use: We live in a busy world. Our brains need to filter a lot more information than earlier and i understand that maybe you don't have the time to read the whole post even though it is best experienced in its entirety. With that being said feel free to skim it. I try to put helpful jumps to the most important parts of the post and to generaly give my posts better structure. I am still improving on that - it's a never ending battle.
+          </small>
         </p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <div css={styles.chatCta}>Wow, you read the whole post. Thank you! If you like what you read, come hang out on <a href="https://discord.gg/hPTaYm9">Discord</a></div>
