@@ -23,6 +23,11 @@ class Bio extends React.Component {
             </a>
           </div>
           <div>
+            <a href="https://twitter.com/vladamxx" target="_blank">
+              <i className="fa fa-twitter" />
+            </a>
+          </div>
+          <div>
             <a
               data-tip="You need to have email client installed."
               href="mailto:vladamx.dev@gmail.com"
@@ -31,19 +36,14 @@ class Bio extends React.Component {
               <i className="fa fa-envelope" />
             </a>
           </div>
-          <div>
-            <a href="https://twitter.com/vladamxx" target="_blank">
-              <i className="fa fa-twitter" />
-            </a>
-          </div>
         </div>
         <p>
           Hi, I'm Vladimir Milojevic.<br />
-          Curious, ambitious, lifelong student of software enineering.<br />
+          Curious, ambitious, lifelong student of software engineering.<br />
           Content on this blog focuses on <strong>implicative knowledge</strong>, rather than <strong>factual</strong>.<br />
           For example, saying that JavaScript is the most popular programming language in the world means nothing. You miss to say why and what for.
           <br />
-          <strong css={styles.chatCta}>If you like what you read here come hang out with me on </strong> <a href="https://discord.gg/hPTaYm9" target="_blank">Discord</a>
+          <strong css={styles.chatCta}>If you like what you read here, or even better if you don't like it, tell me how can i improve my writing. Either way, come hang out with me on </strong> <a href="https://discord.gg/hPTaYm9" target="_blank">Discord</a>
 
         </p>
       </div>
