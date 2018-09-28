@@ -43,7 +43,7 @@ class Bio extends React.Component {
           Content on this blog focuses on <strong>implicative knowledge</strong>, rather than <strong>factual</strong>.<br />
           For example, saying that JavaScript is the most popular programming language in the world means nothing. You miss to say why and what for.
           <br />
-          <strong css={styles.chatCta}>If you like what you read here, or even better if you don't like it, tell me how can i improve my writing. Either way, come hang out with me on </strong> <a href="https://discord.gg/hPTaYm9" target="_blank">Discord</a>
+          <strong css={styles.chatCta}>If you like what you read here, or even if you don't like it, tell me how can i improve my writing. Either way, come hang out with me on </strong> <a href="https://discord.gg/hPTaYm9" target="_blank">Discord</a>
 
         </p>
       </div>
